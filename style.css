@@ -1,0 +1,509 @@
+/*--------------------------------------------------------------------------ZOE'S CSS :D--------------------------------------------------------------------------*/
+
+/*sweet style*/@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+/*game style*/@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Press+Start+2P&display=swap'); 
+/*Quicksand*/@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Press+Start+2P&family=Quicksand:wght@300&display=swap');
+
+.page-wrapper{
+	margin-left:auto;
+    margin-right:auto;
+    width:1510px;
+	position: relative;
+}
+
+html{
+	cursor: url(images/dog.cur), auto;
+}
+
+body{
+	/* font-family: 'Common Pixel', sans-serif; */
+	/* font-family: "ＭＳ Ｐゴシック"; */
+	/* font-family: "8bitOperatorPlus-Bold", monospace; */
+	/* font-family: "Comic Sans MS", "Comic Sans", cursive; */
+	/* font-family: 'Fredoka One', cursive; */
+	/* font-family: 'Press Start 2P', cursive; */
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	height: 100vh;
+
+}
+
+
+p{
+	font-family: 'Quicksand', sans-serif;	font-size: 16.6px;
+	font-size: 16.999px;
+	line-height: 1.6;
+}
+
+h3{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 18px;
+}
+
+/*-------------------------------Intro--------------------------------------*/
+.intro{
+	background-image: url(images/undertalebg.jpg);
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 900px;
+	color: white;
+	display: flex;
+	flex-direction: column; /*maybe*/
+	position: relative;
+	background-attachment: fixed;
+	
+}
+
+header{
+	margin: 20px 0px 0px 35px;
+}
+
+header h1{
+	font-family: 'Quicksand', sans-serif;
+	font-weight:bold;
+	-webkit-transform: rotate(-90deg);
+	position: absolute;
+	line-height: 3em;
+    top: 4.2em;
+    left: -3em;
+    margin: 0;
+    padding: 1em;
+	font-size: 22px;
+	margin-left: 90px;
+	
+
+}
+
+header h2{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 55px;
+	line-height: 1.5;
+	color: #FFCE00;
+	background: url(images/undertale_heart.png) no-repeat right bottom;
+	background-size: 69px;
+	background-position: 81%;
+	width: 53%;
+	height: 4em;
+	padding-left: 135px;
+	
+}
+
+.summary{
+	padding-top: 30px;
+	padding-left: 60%;
+	width: 25%;
+	float: right;
+
+}
+
+.summary a{
+	color: white;
+	/* font-weight: 1000; */
+	text-decoration: none;
+	border-bottom: 1px solid currentColor;
+	position: relative;
+}
+
+.summary a:hover{
+	color: #F44336;
+	font-weight: 1000;
+	position: relative;
+	transition: all 0.2s ease-out;
+}
+
+
+.summary, .preamble{
+	margin: 0px 35px 10px 35px;
+
+}
+
+.intro .preamble{
+	position: relative;
+	width: 50%;
+	padding-left: 250px;
+	padding-top: 480px;
+	background: url(images/nabstablook.gif) no-repeat right bottom;
+	background-size: 225px;
+	width:70%;
+	/* background-position-x: 950px; */
+	background-position: 84%;
+	background-position-y: 510px;
+	/* background-position: 80%; */
+	height: 100%;
+	
+	
+
+}
+
+.preamble p{
+	width: 63%;
+	font-size: 16.6px;
+}
+
+.preamble h3{
+	color: #68B1B8;
+	font-size: 25.6px;
+}
+
+/*-------------------------------Main Supporting--------------------------------------*/
+
+#zen-supporting{
+	padding-top: 400px;
+}
+
+
+.explanation h3{
+	color: #68B1B8;
+	font-size: 25.6px;
+	
+}
+
+.explanation p{
+	color: white;
+	font-size: 19;
+	font-size: 16.6px;
+	width: 67%;
+}
+
+.explanation{
+	padding-top: 90px;
+	padding-left: 30%;
+	/* width: 47%; */
+	width: 65%;
+	/* padding-right: 200px; */
+	float: right;
+	background: url(images/mettaton1.gif) no-repeat bottom;
+	background-size: 370px;
+	background-position: 11%;
+	/* background-position-x: 100px; */
+	background-position-y: 110px;
+	height: 100%;
+
+}
+
+.participation{
+	/* padding-top: 220px;
+	padding-left: 250px;
+	position: relative;
+	-webkit-transform-origin-y: 400px; */
+	position: relative;
+	top: 500px;
+	transform-origin: 0 400px;
+	transform: translateY(0);
+	z-index: 9999;
+	padding-left: 550px;
+	background-image: url(images/souls.gif);
+	background-repeat: no-repeat;
+	background-size: 500px;
+	background-position-x: 500px;
+	background-position-y: 90px;
+}
+
+
+.participation h3{
+	color: #FFCE00;
+	font-size: 25.6px;
+	-webkit-transform: rotate(-90deg);
+	position: absolute;
+	line-height: 3em;
+    top: 520px;
+    left: 320px;
+    margin: 0;
+    padding: 1em;
+
+}
+
+.participation p{
+	color: white;
+	font-size: 19;
+	font-size: 16.6px;
+	width: 80%;
+
+}
+
+.participation a{
+	color: white;
+	/* font-weight: 1000; */
+	text-decoration: none;
+	border-bottom: 1px solid currentColor;
+	position: relative;
+}
+
+.participation a:hover{
+	color: #FFCE00;
+	font-weight: 1000; 
+	transition: all 0.2s ease-out;
+}
+
+
+
+.benefits{
+	position: relative;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.451),rgba(0, 0, 0, 0.5)) ,url(images/tealBg.png);
+	background-attachment: fixed;
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	color: white;
+	/* background-position-y: 1000px; */
+}
+
+
+#zen-benefits{
+	padding-top: 550px;
+}
+
+#zen-benefits h3{
+	padding-left: 550px;
+	color: #FFCE00;
+	font-size: 25.6px;
+	text-align:right;
+	padding-right: 200px;
+	
+}
+
+#zen-benefits p{
+	padding-left: 550px;
+	width: 50%;
+	font-size: 16.6px;
+}
+
+.requirements{
+	padding-top: 15px;
+	background: url(images/hoives.gif) no-repeat bottom;
+	background-size: 180px;
+	background-position-x: 1095px;
+	background-position-y: 40px;
+}
+
+
+.requirements h3{
+	color: #68B1B8;
+	font-size: 25.6px;
+	padding-top: 100px;
+	padding-left: 550px;
+
+}
+
+.requirements p:nth-child(-n+5){
+	color: white;
+	font-size: 19;
+	font-size: 16.6px;
+	width: 52%;
+	padding-left: 550px;
+}
+
+
+.requirements p:nth-of-type(5) {
+	color: #68B1B8;
+	text-align: center;
+	font-size: 18.6px;
+	position: relative;
+	padding-top: 80px;
+	font-family: 'Press Start 2P', cursive;
+	padding-right: 100px;
+	padding-left: 120px;
+
+}
+
+.requirements a:nth-of-type(5) {
+	color: #68B1B8;
+	text-align: center;
+	font-size: 18.6px;
+	position: relative;
+	padding-top: 80px;
+	font-family: 'Press Start 2P', cursive;
+	padding-right: 100px;
+	padding-left: 120px;
+
+}
+
+
+.requirements a:nth-child(-n+5){
+	color: white;
+	/* font-weight: 1000; */
+	text-decoration: none;
+	border-bottom: 1px solid currentColor;
+	position: relative;
+}
+
+
+/* .requirements a:nth-of-type(3), a:nth-of-type(6), a:nth-of-type(7)   {
+	color: #68B1B8;
+	text-decoration: none;
+	border-bottom: 1px solid currentColor;
+	position: relative;
+} */
+
+.requirements a:nth-child(-n+5):hover {
+	color: #FFCE00;
+	font-weight: 1000; 
+	transition: all 0.2s ease-out;
+
+}
+
+/*-------------------------------Main Supporting--------------------------------------*/
+footer{
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 18px;
+	padding-top: 80px;
+	width: 50%;
+	margin: 0;
+	padding-left: 26%;
+	background-image: url(images/flowey1.png);
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 600px;
+	height: 750px;
+	background-position-x:450px;
+	background-position-y: bottom;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+}
+
+.zen-validate-html{
+	background-color: #FF5705;
+	padding: 40px 25px;
+	border-radius: 50%;
+	text-align: center;
+}
+.zen-validate-html:hover{
+	background-color: white;
+	color: #FF5705;
+	transition: all 0.2s ease-out;
+}
+
+.zen-validate-css{
+	background-color: #3022D6;
+	padding: 40px 25px;
+	border-radius: 50%;
+	text-align: center;
+}
+.zen-validate-css:hover{
+	background-color: white;
+	color: #3022D6;
+	transition: all 0.2s ease-out;
+}
+
+.zen-license{
+	background-color: #B418EB;
+	padding: 40px;
+	border-radius: 50%;
+	text-align: center;
+}
+.zen-license:hover{
+	background-color: white;
+	color: #B418EB;
+	transition: all 0.2s ease-out;
+}
+
+.zen-accessibility{
+	background-color: #FFD82F;
+	padding: 40px 25px;
+	border-radius: 50%;
+	text-align: center;
+}
+.zen-accessibility:hover{
+	background-color: white;
+	color: #FFD82F;
+	transition: all 0.2s ease-out;
+}
+
+.zen-github{
+	background-color: #0F8900;
+	padding: 40px;
+	border-radius: 50%;
+	text-align: center;
+}
+.zen-github:hover{
+	background-color: white;
+	color: #0F8900;
+	transition: all 0.2s ease-out;
+}
+
+
+/*-------------------------------Side bar--------------------------------------*/
+aside {
+    display: block;
+	z-index: 9999;
+}
+
+
+.sidebar{ 
+	margin-right: 600px;
+	position: absolute;
+	height: 1130px;
+	padding: 35px;
+	left: 45px;
+	top: 2150px;
+	text-align: left;
+	background: url(images/annoyingdog.gif) no-repeat bottom;
+	background-size: 200px;
+	background-color: white;
+	border-style: outset;
+
+}
+
+.sidebar .wrapper{
+	width:298px;
+}
+
+
+.sidebar ul {
+	list-style: none;
+	padding: 0;
+	width: 250px;
+}
+  
+.sidebar ul li {
+	background-image: url('images/undertale_heart.png');
+	background-repeat: no-repeat;
+	background-size: 15px;
+	background-position-y: 10px;
+	padding: 0px 15px 0px 20px; 
+	font-family: 'Quicksand', sans-serif;	font-size: 16.6px;
+	font-size: 16.999px;
+	line-height: 1.6;
+	font-weight: 800;
+	color: #426062;
+	
+	
+}
+
+.sidebar li a{
+	text-decoration: none;
+	border-bottom: 1px solid currentColor;
+	position: relative;
+	color: #426062;
+	line-height: 1.6;
+}
+
+.sidebar li a:hover{
+	font-weight: 1000; 
+	transition: all 0.2s ease-out;
+	color: #68B1B8;
+}
+
+.sidebar h3{
+	color: #68B1B8;
+	font-size: 18.6px;
+}
+
+.sidebar  li a:active{
+	color: #FFD82F;
+} 
+
+
+/*--------------------------------------------------------------------------ZOE'S CSS :D--------------------------------------------------------------------------*/
